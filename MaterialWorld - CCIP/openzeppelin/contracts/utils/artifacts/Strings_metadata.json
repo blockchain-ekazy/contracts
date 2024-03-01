@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "length",
+						"type": "uint256"
+					}
+				],
+				"name": "StringsInsufficientHexLength",
+				"type": "error"
+			}
+		],
+		"devdoc": {
+			"details": "String operations.",
+			"errors": {
+				"StringsInsufficientHexLength(uint256,uint256)": [
+					{
+						"details": "The `value` string doesn't fit in the specified `length`."
+					}
+				]
+			},
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/@openzeppelin/contracts/utils/Strings.sol": "Strings"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0xca7753152a136f20f6637889e5df17cd8e966d144b83db5ab98d6f76b92ce2c8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f18d05c7ca759c66a988a07f7837920afa9aa6bfed03b579e8b9376451165d7a",
+				"dweb:/ipfs/QmXfWMqzWxguszY5pc9cmdwUvCXzNmmEEs3RWp8PBQexRn"
+			]
+		},
+		".deps/npm/@openzeppelin/contracts/utils/math/Math.sol": {
+			"keccak256": "0xc74faa0560a7f795c14e648af89ce36a66a0b9e392eff4990df3e26f9ad76066",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6fa0111cd2a1773122d108661fef1a65c1d69398950b689ac07b3c2689657609",
+				"dweb:/ipfs/QmU7g9prfz8n33i4XaUeLFnyjMog4496vnjhiTCr2rxWiT"
+			]
+		},
+		".deps/npm/@openzeppelin/contracts/utils/math/SignedMath.sol": {
+			"keccak256": "0x195a987e7051cec45f53c5004e819f260178914c1784ddeae601c517de8e133b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3bab66e84f7e5944d6b249146896ab34d8f756a7fb1a1fa08ca20ffa2c48adc9",
+				"dweb:/ipfs/QmWBtZ1DatXRaxSGTJ2Y9i8HNH362eeBanP4TfKGKW5xYB"
+			]
+		}
+	},
+	"version": 1
+}

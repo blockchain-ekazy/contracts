@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"constructor": {
+					"details": "Initializes the domain separator and parameter caches. The meaning of `name` and `version` is specified in https://eips.ethereum.org/EIPS/eip-712#definition-of-domainseparator[EIP 712]: - `name`: the user readable name of the signing domain, i.e. the name of the DApp or the protocol. - `version`: the current major version of the signing domain. NOTE: These parameters cannot be changed except through a xref:learn::upgrading-smart-contracts.adoc[smart contract upgrade]."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/EIP712.sol": "EIP712"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ECDSA.sol": {
+			"keccak256": "0xa44c65deaa735769af102adebdc83a359401b8a809491185f774e2f29721b691",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://53f95b582c394cf7935179ed8a2e1c74565b954e986fa93ec6970e468e15d775",
+				"dweb:/ipfs/QmV1oDaNmpg8k6JFvwiUW1Jry77XxWrQa7VckxpuFr83aD"
+			]
+		},
+		"contracts/EIP712.sol": {
+			"keccak256": "0xb3a1aba3fef292e2e50053dc99991be35b4d146dc598faeb78c1dd19f16cb9ab",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0305f3ff57a3c2d3445d80743d9a7996fe22fd474cabcbf8210dc67ce809e5f8",
+				"dweb:/ipfs/Qme8RkxL45mqvWEgeqTr3s5DifSrhs2kQmcy2JTpEbb6zL"
+			]
+		},
+		"contracts/strings.sol": {
+			"keccak256": "0x76e0eeebd0ae2aa4fe55b466cfa9512c89fe5799108d11d7b0d6f6e840969de8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7ec5cefbbf7e1e2920ea876bbb2d3516a3e35d7c5f1fb38ae2008e78ae71388e",
+				"dweb:/ipfs/QmasABbxkmZrCEoz6ZautPiUTbLhrBQhz3Av27cG5nkE4d"
+			]
+		}
+	},
+	"version": 1
+}

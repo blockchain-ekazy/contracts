@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Implementation of the {IERC165} interface. Contracts that want to implement ERC165 should inherit from this contract and override {supportsInterface} to check for the additional interface id that will be supported. For example: ```solidity function supportsInterface(bytes4 interfaceId) public view virtual override returns (bool) {     return interfaceId == type(MyInterface).interfaceId || super.supportsInterface(interfaceId); } ```",
+			"kind": "dev",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"details": "See {IERC165-supportsInterface}."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".deps/npm/@openzeppelin/contracts/utils/introspection/ERC165.sol": "ERC165"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".deps/npm/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
+			"keccak256": "0x79b8b95a610c8823997c639f22dc502a64047a042f62c58b6feb04a82668a8f8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://30644b34d99b7031c71f6988fcc67cdca98dbad285f27f9e99b5d1fa63323c69",
+				"dweb:/ipfs/QmTapMESvnHMBkkkdkEefTyP87jXoNitV5U8nNHxLWEWEQ"
+			]
+		},
+		".deps/npm/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
+			"keccak256": "0xfcc9759dead7965c69d4c7916e53d23d236d696465b890ca65e4ecdee8ad9812",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://393550054d90396dc6cbf7ac9f3d7ef3855c09cf63694992317842f97bf5eda9",
+				"dweb:/ipfs/QmPQD1gmLAigP23AoPnVUe1n6vwCzcHDwFrqdqa59nik7D"
+			]
+		}
+	},
+	"version": 1
+}
